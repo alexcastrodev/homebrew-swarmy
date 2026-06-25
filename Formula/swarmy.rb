@@ -5,13 +5,8 @@ class Swarmy < Formula
   license "MIT"
 
   on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/alexcastrodev/swarmy/releases/download/v#{version}/swarmy-darwin-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
-    else
-      url "https://github.com/alexcastrodev/swarmy/releases/download/v#{version}/swarmy-darwin-amd64.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
+    url "https://github.com/alexcastrodev/swarmy/releases/download/v#{version}/swarmy-darwin-arm64.tar.gz"
+    sha256 "PLACEHOLDER"
   end
 
   on_linux do
