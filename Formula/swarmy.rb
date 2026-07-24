@@ -1,17 +1,17 @@
 class Swarmy < Formula
   desc "A terminal UI to manage Docker Swarm services and containers"
   homepage "https://github.com/alexcastrodev/swarmy"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     url "https://github.com/alexcastrodev/swarmy/releases/download/v#{version}/swarmy-darwin-arm64.tar.gz"
-    sha256 "818be87d1f7780b275b6e07edb897b11be880365c81a4ada08c15341851a05b8"
+    sha256 "8d1a68613f02447a8b88c490734fef2b6875aa4c1bee8bc02b112e1e4ad4bb15"
   end
 
   on_linux do
     url "https://github.com/alexcastrodev/swarmy/releases/download/v#{version}/swarmy-linux-amd64.tar.gz"
-    sha256 "3cc83e6a8f4aaa7d51da1c8786ada15342440eada874400685e56ab7333319aa"
+    sha256 "ad140cf582833d99212e3d99751e3fb88915659f338cc0738648a6360a6b1dd3"
   end
 
   def install
